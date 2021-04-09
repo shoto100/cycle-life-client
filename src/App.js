@@ -43,7 +43,7 @@ function App() {
 
                   {
                     (loggedInUser.name)
-                    ? <Nav.Link className="link" style={{fontWeight: "bold", border: "1px solid #333", borderRadius: "5px"}} href="#">{loggedInUser.name}</Nav.Link> 
+                    ? <Nav.Link className="link" style={{fontWeight: "bold", border: "1px solid #333", borderRadius: "5px"}}>{loggedInUser.name}</Nav.Link> 
                     : <Nav.Link ><Link  className="link" to="/login">Login</Link></Nav.Link>
                   }
                 </Nav>
