@@ -6,13 +6,13 @@ import { faPencilAlt, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 const ManageProduct = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://cycle-life.herokuapp.com/products")
       .then(res => res.json())
       .then(data => setProducts(data))
   }, [products])
 
   const handleDeleteProduct = (e, id) => {
-    fetch(`http://localhost:5000/productdelete/${id}`, {
+    fetch(`https://cycle-life.herokuapp.com/productdelete/${id}`, {
       method: "DELETE",
       headers: {
         'Content-Type': 'application/json; charset=UTF-8'

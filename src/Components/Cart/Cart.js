@@ -13,7 +13,7 @@ const Cart = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
     // const [products, setProducts] = useContext(ProductContext);
     useEffect(() => {
-      fetch('http://localhost:5000/products')
+      fetch('https://cycle-life.herokuapp.com/products')
       .then(res => res.json())
       .then(data => {
           setProducts(data)
@@ -37,7 +37,7 @@ const Cart = () => {
       }
     
       const handleOrder = () => {
-        fetch(`http://localhost:5000/addOrder`, {
+        fetch(`https://cycle-life.herokuapp.com/addOrder`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json"

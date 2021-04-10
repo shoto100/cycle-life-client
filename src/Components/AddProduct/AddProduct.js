@@ -15,7 +15,7 @@ const AddProduct = () => {
             productType: data.productType,
             productPrice: data.productPrice
         };
-        const url = `http://localhost:5000/addProduct`;
+        const url = `https://cycle-life.herokuapp.com/addProduct`;
         console.log(productData);
 
         fetch(url,{
