@@ -1,13 +1,12 @@
 
 # This Is My Complete Website Project - Cycle Life 
 
-Live link is - https://complete-website-baa23.firebaseapp.com/
+Live link is - https://full-stack-3afe7.firebaseapp.com/
 
-## Many feature are added in Homes || Natural Stay,
+## Many feature are added in Cycle Life,
 
 - user take diffrent type of services
 - user are review to our service quality
-- user pay with creadit card (payment gateway service)
 
 - Admin make to another admin
 - admin dashbord are different to normal user
